@@ -1,6 +1,6 @@
 import { Chain } from "@thirdweb-dev/chains";
 
-const CustomChain: Chain = {
+const defineChain: Chain = {
   chain: "bitrock",
   name: "bitrock",
   chainId: 7171,
@@ -15,4 +15,4 @@ const CustomChain: Chain = {
   slug: "bitrock",
 };
 
-export default CustomChain;
+export default chain;
