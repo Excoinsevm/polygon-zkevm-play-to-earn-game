@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import CustomChain from "../const/chain";
+import Chain from "../const/chain";
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "../components/NavBar";
 
@@ -11,7 +11,7 @@ import NavBar from "../components/NavBar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={CustomChain}>
+    <ThirdwebProvider activeChain={Chain}>
       <ChakraProvider>
         <NavBar/>
         <Component {...pageProps} />
