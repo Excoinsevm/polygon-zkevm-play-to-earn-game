@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import CustomChain from "../consts/chain";
+import CustomChain from "../const/chain";
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "../components/NavBar";
 
